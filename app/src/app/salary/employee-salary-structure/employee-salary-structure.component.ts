@@ -7,11 +7,12 @@ import { SalaryComponent } from 'src/app/shared/config/salary-component';
   styleUrls: ['./employee-salary-structure.component.scss']
 })
 export class EmployeeSalaryStructureComponent implements OnInit {
-  @Input() salary = 0; 
+  @Input() salary = 0;
   salaryBreakup = SalaryComponent;
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }
